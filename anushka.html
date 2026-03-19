@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anushka Sinha</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+/* NAV */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* MAIN CONTAINER */
+.wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero span {
+    color: #00ffe0;
+}
+
+.hero p {
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+/* SECTION CARD */
+.section {
+    margin-top: -80px;
+    padding: 50px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    position: relative;
+}
+
+.section + .section {
+    margin-top: 40px;
+}
+
+/* HEADINGS */
+.section h2 {
+    margin-bottom: 15px;
+    color: #00ffe0;
+}
+
+/* TEXT */
+.section p {
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* CARD ITEMS */
+.item {
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.04);
+    transition: 0.3s;
+}
+
+.item:hover {
+    background: rgba(0,255,224,0.1);
+    transform: translateY(-3px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin: 60px 0;
+    opacity: 0.6;
+}
+</style>
+
+</head>
+<body>
+
+<nav>ANUSHKA SINHA</nav>
+
+<div class="wrapper">
+
+    <!-- HERO -->
+    <section class="hero">
+        <div>
+            <h1>Hi, I'm <span>Anushka</span></h1>
+            <p>
+                A Class 10 student driven by creativity and curiosity, stepping into the world 
+                of commerce with a vision to build, understand, and innovate.
+            </p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section">
+        <h2>About Me</h2>
+        <p>
+            I enjoy exploring ideas beyond textbooks. My interest in commerce comes from understanding 
+            how businesses grow and how financial decisions shape the world. Creativity helps me think 
+            differently and approach problems in unique ways.
+        </p>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section">
+        <h2>Achievements</h2>
+        <div class="grid">
+            <div class="item">Strong academic consistency</div>
+            <div class="item">Recognized creative thinking</div>
+            <div class="item">Active participation in school work</div>
+            <div class="item">Focused self-growth mindset</div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="item">Creative Thinking</div>
+            <div class="item">Communication</div>
+            <div class="item">Basic Finance Understanding</div>
+            <div class="item">Problem Solving</div>
+        </div>
+    </section>
+
+    <!-- VISION -->
+    <section class="section">
+        <h2>Future Vision</h2>
+        <p>
+            I aim to pursue commerce and build a career where I can combine creativity with financial 
+            intelligence. Whether in business, entrepreneurship, or finance, I want to create meaningful 
+            impact and continuously grow.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Anushka Sinha
+    </footer>
+
+</div>
+
+</body>
+</html>
